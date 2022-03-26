@@ -24,7 +24,7 @@ if __name__ == "__main__" :
 
 #2019038030 김진영
             
-    #기타 딕셔너리 값을 기준으로 정렬
+    #기차 딕셔너리 값을 기준으로 정렬
             
     trainTup2 = sorted(trainDic.items(), key = operator.itemgetter(1), reverse = True)
 
